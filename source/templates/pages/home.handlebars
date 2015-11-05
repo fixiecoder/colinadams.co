@@ -1,0 +1,29 @@
+{{> head}}
+{{> header}}
+<div id="container">
+	<section>
+		<div class="main-logo animated fadeIn">
+			<img id="main-logo" class="animated" src="assets/images/logo_cloud_white.svg" />
+		</div>
+		<div id="send-message-container">
+			<button id="send-message" class="button animated">Email</button>
+		</div>
+		<div id="contact-form" class="animated">
+			<form action="" method="POST">
+				<input type="email" name="email" placeholder="your email address">
+				<input type="text" name="subject" placeholder="subject">
+				<textarea></textarea>
+				<button class="button submit">Send</button>
+			</form>
+			<button class="button cancel" id="cancel-contact">Cancel</button>
+		</div>
+	</section>
+</div>
+
+<script>
+$(document).ready(function () {
+    pages.homeInit();
+});
+</script>
+{{> footer}}
+
