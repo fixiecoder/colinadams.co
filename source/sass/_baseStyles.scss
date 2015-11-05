@@ -12,6 +12,7 @@ html {
 }
 
 body {
+	background-color: $sky-blue;
 	height: 100%;
 	font-family: Roboto;
 	h1 {
@@ -93,4 +94,20 @@ body {
 	.cancel {
 
 	}
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
 }
